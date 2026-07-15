@@ -5,6 +5,25 @@ geometry generation, and applied AI. The full implementation and
 product concept are private — this is just an overview of the
 engineering side, for anyone curious about the technical work.
 
+### 🚀 Athenon (In Development)
+
+An engineering-focused R&D platform combining physics simulation,
+generative 3D geometry, and applied AI. Every simulation result is
+checked against a known reference (textbook theory, published tables,
+or independently derived answers) before it's trusted — verified
+accuracy so far ranges from exact matches to single-digit percent
+error, depending on method.
+
+Recent work includes diagnosing and resolving several subtle
+numerical/interoperability bugs across open-source simulation tools
+(element formulation issues causing significant under-prediction of
+deflection, mesh-format node-ordering mismatches between independent
+tools, and precision limits in legacy solver file formats).
+
+The implementation and product concept are maintained in a private
+repository. A public repository documents the engineering approach and
+verification methodology.
+
 ---
 
 ## Simulation work
