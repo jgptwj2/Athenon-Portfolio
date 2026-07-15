@@ -1,4 +1,4 @@
-# Athenon
+# AI Engineering (Athenon — in active development)
 
 R&D project I've been building that combines physics simulation, 3D
 geometry generation, and applied AI. The full implementation and
